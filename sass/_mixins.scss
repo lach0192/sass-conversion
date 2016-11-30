@@ -1,0 +1,20 @@
+// sass/_mixins.scss
+
+@mixin border-box(){
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@mixin border-box-inherit(){
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+@mixin bg-header-styling(){
+    content: "";
+    position: absolute;
+    bottom: -1rem;
+    width: 30%;
+    height: 1rem;
+    background-color: $darkblue;
+}
